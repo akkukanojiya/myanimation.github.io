@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKASH animation</title>
+    <style>
+        .animation{
+             
+            /* color: rgb(11, 3, 27); */
+            display: flex;
+            justify-content: space-around;
+            font-size: 70px;
+
+
+          animation-name: akku;
+          animation-duration: 2s;
+          /* animation-delay: 0s; */
+          animation-iteration-count: infinite;
+
+        }
+              /* A */
+        .a1{
+          
+            position: relative;
+            color: brown;
+            animation-name: aa1;
+            animation-delay: 1S;
+          animation-duration: 4s;
+          animation-iteration-count:infinite;
+          animation-direction: alternate;
+
+            
+        }
+           
+        @keyframes aa1{
+            0%{top:0px; left:0px;  }
+            100%{top:200px; left:0px; color: darkcyan;}
+            /* 20%{bottom: 0px; right: 0px;}
+            0%{bottom: 200px; right: 0px;}
+ */
+            /* 21%{bottom:0px; right: 0px;}
+            40%{bottom: 200px; right: 0px;}
+             */
+                
+            }
+             /* K */
+        .a2{
+          
+          /* display: flex; */
+          margin-top: 475px;
+          /* justify-content: center; */
+          /* align-items: flex-end; */
+          animation-direction: alternate;
+
+            position: relative;
+            color: aqua;
+            animation-name: aa2;
+            animation-delay: 1S;
+          animation-duration: 4s;
+          animation-iteration-count: infinite;
+
+
+        }
+        @keyframes  aa2{
+          0%{bottom:0px; right:0px; }
+            100%{bottom:270px; right:0px; color: darkblue; }
+
+                
+            }
+            /* A */
+ 
+        .a3{
+            position: relative;
+            color: black;
+            animation-name: aa3;
+            animation-delay: 1S;
+          animation-duration: 4s;
+          animation-iteration-count: infinite;
+          animation-direction: alternate;
+
+
+        }
+        @keyframes  aa3{
+          0%{top:0px; left:0px;}
+            100%{top:200px; left:0px; color: darkgreen;}
+
+                
+            }
+        /* S */
+        .a4{
+          margin-top: 485px;
+            position: relative;
+            color: blue;
+            animation-name: aa4;
+            animation-delay: 1S;
+          animation-duration: 4s;
+          animation-iteration-count: infinite;
+          animation-direction: alternate;
+
+        }
+        @keyframes  aa4{
+          0%{bottom:0px; right:0px;}
+            100%{bottom:275px; right:0px; color: darkslategrey; }
+             
+
+                
+           }
+            /* H  */
+ 
+        .a5{
+            position:relative;
+            color:cadetblue;
+            animation-name:aa5;
+            animation-delay: 1S;
+            animation-duration:4s;
+            animation-iteration-count:infinite;
+            animation-direction: alternate;
+
+
+        }
+        @keyframes  aa5{
+          0%{top:0px; left:0px;}
+            100%{top:200px; left:0px; color: darkmagenta;}
+
+                
+            }
+ 
+        @keyframes akku{
+            
+           0%{text-shadow:20px 40px 10px; background-color: antiquewhite; font-family: Verdana,  Tahoma, sans-serif;}
+           10%{font-weight:bold; text-shadow: 20px 40px 20px; text-shadow:20px -40px 10px; background-color: dimgrey; font-family: Georgia, Times, 'Times New Roman', serif;}
+           
+           
+          
+            
+
+        }
+        
+    
+         
+    </style>
+</head>
+<body>
+     <div class="animation"> 
+        <p  class="a1">A </p>
+        <p  class="a2">K </p>
+        <p  class="a3">A </p>
+        <p  class="a4">S </p>
+        <p  class="a5">H </p>
+    </div>
+</body>
+</html>
